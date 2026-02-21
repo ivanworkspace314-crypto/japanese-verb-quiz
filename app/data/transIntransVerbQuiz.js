@@ -1,6 +1,5 @@
-const quizGroups = [
+const transIntransVerbQuiz = [
   {
-    number: '1',
     items: [
       {
         id: 'q1a',
@@ -17,7 +16,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '2',
     items: [
       {
         id: 'q2a',
@@ -33,7 +31,6 @@ const quizGroups = [
       },
     ],
   },{
-    number: '3',
     items: [
       {
         id: 'q3a',
@@ -50,7 +47,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '4',
     items: [
       {
         id: 'q4a',
@@ -67,7 +63,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '5',
     items: [
       {
         id: 'q5a',
@@ -84,7 +79,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '6',
     items: [
       {
         id: 'q6a',
@@ -100,7 +94,6 @@ const quizGroups = [
       },
     ],
   },{
-    number: '7',
     items: [
       {
         id: 'q7a',
@@ -116,7 +109,6 @@ const quizGroups = [
       },
     ],
   },{
-    number: '8',
     items: [
       {
         id: 'q8a',
@@ -133,7 +125,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '9',
     items: [
       {
         id: 'q9a',
@@ -150,7 +141,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '10',
     items: [
       {
         id: 'q10a',
@@ -166,7 +156,6 @@ const quizGroups = [
       },
     ],
   },{
-    number: '11',
     items: [
       {
         id: 'q11a',
@@ -183,7 +172,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '12',
     items: [
       {
         id: 'q12a',
@@ -200,7 +188,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '13',
     items: [
       {
         id: 'q13a',
@@ -217,7 +204,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '14',
     items: [
       {
         id: 'q14a',
@@ -234,7 +220,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '15',
     items: [
       {
         id: 'q15a',
@@ -250,7 +235,6 @@ const quizGroups = [
       },
     ],
   },{
-    number: '16',
     items: [
       {
         id: 'q16a',
@@ -267,7 +251,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '17',
     items: [
       {
         id: 'q17a',
@@ -284,7 +267,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '18',
     items: [
       {
         id: 'q18a',
@@ -301,7 +283,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '19',
     items: [
       {
         id: 'q19a',
@@ -313,12 +294,11 @@ const quizGroups = [
         id: 'q19b',
         question: 'あたらしいメンバーが かいぎに (　　　　)。',
         english: 'A new member joins the meeting.',
-        answer: 'くわります',
+        answer: 'くわわります',
       },
     ],
   },
   {
-    number: '20',
     items: [
       {
         id: 'q20a',
@@ -335,7 +315,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '21',
     items: [
       {
         id: 'q21a',
@@ -352,7 +331,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '22',
     items: [
       {
         id: 'q22a',
@@ -369,7 +347,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '23',
     items: [
       {
         id: 'q23a',
@@ -386,7 +363,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '24',
     items: [
       {
         id: 'q24a',
@@ -403,7 +379,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '25',
     items: [
       {
         id: 'q25a',
@@ -419,7 +394,6 @@ const quizGroups = [
       },
     ],
   },{
-    number: '26',
     items: [
       {
         id: 'q26a',
@@ -436,7 +410,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '27',
     items: [
       {
         id: 'q27a',
@@ -453,7 +426,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '28',
     items: [
       {
         id: 'q28a',
@@ -470,7 +442,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '29',
     items: [
       {
         id: 'q29a',
@@ -487,7 +458,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '30',
     items: [
       {
         id: 'q30a',
@@ -504,7 +474,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '31',
     items: [
       {
         id: 'q31a',
@@ -521,7 +490,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '32',
     items: [
       {
         id: 'q32a',
@@ -538,7 +506,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '33',
     items: [
       {
         id: 'q33a',
@@ -555,7 +522,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '34',
     items: [
       {
         id: 'q34a',
@@ -572,7 +538,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '35',
     items: [
       {
         id: 'q35a',
@@ -589,7 +554,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '36',
     items: [
       {
         id: 'q36a',
@@ -606,7 +570,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '37',
     items: [
       {
         id: 'q37a',
@@ -623,7 +586,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '38',
     items: [
       {
         id: 'q38a',
@@ -640,7 +602,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '39',
     items: [
       {
         id: 'q39a',
@@ -657,7 +618,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '40',
     items: [
       {
         id: 'q40a',
@@ -674,7 +634,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '41',
     items: [
       {
         id: 'q41a',
@@ -691,7 +650,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '42',
     items: [
       {
         id: 'q42a',
@@ -708,7 +666,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '43',
     items: [
       {
         id: 'q43a',
@@ -725,7 +682,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '44',
     items: [
       {
         id: 'q44a',
@@ -742,7 +698,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '45',
     items: [
       {
         id: 'q45a',
@@ -759,7 +714,6 @@ const quizGroups = [
     ],
   },
   {
-    number: '46',
     items: [
       {
         id: 'q46a',
@@ -777,4 +731,4 @@ const quizGroups = [
   }
 ];
 
-export default quizGroups;
+export default transIntransVerbQuiz;

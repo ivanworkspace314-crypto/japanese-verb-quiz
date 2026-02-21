@@ -1,37 +1,26 @@
-'use client';
+import QuizCatalog from '@/components/Navigation/QuizCatalog';
 
-import { useState } from 'react';
-import QuizItem from '../components/QuizItem';
-import quizGroups from './data/quizGroups';
+export default function Home() {
+  const quizCategories = [
+    {
+      title: 'Transitive & Intransitive Verbs',
+      description: 'Practice verb pairs and usage',
+      href: '/verbs',
+      emoji: '🔄',
+    },
+    {
+      title: 'Days of the Week',
+      description: 'Learn Japanese days: Monday to Sunday',
+      href: '/nouns/daysOfWeek',
+      emoji: '📅',
+    },
+    {
+      title: 'Universal Counter',
+      description: 'Count from objects from one to ten',
+      href: '/nouns/universalCounter',
+      emoji: '🔢',
+    },
+  ];
 
-export default function GrammarQuiz() {
-  const [expandedAnswers, setExpandedAnswers] = useState({});
-
-  const toggleAnswer = (id) => {
-    setExpandedAnswers((prev) => ({
-      ...prev,
-      [id]: !prev[id],
-    }));
-  };
-
-  return (
-    <main className="min-h-screen bg-slate-50 px-4 py-8 dark:bg-slate-950">
-      <div className="mx-auto w-full max-w-4xl">
-        {quizGroups.map((group) =>
-          group.items.map((item, index) => (
-            <QuizItem
-              key={item.id}
-              number={index === 0 ? group.number : undefined}
-              question={item.question}
-              english={item.english}
-              answer={item.answer}
-              id={item.id}
-              expandedAnswers={expandedAnswers}
-              toggleAnswer={toggleAnswer}
-            />
-          )),
-        )}
-      </div>
-    </main>
-  );
+  return <QuizCatalog categories={quizCategories} />;
 }
