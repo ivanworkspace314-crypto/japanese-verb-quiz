@@ -1,5 +1,6 @@
 # Japanese Quiz App
 live version: <a href="https://japanese-verb-quiz.vercel.app/"> HERE </a>
+<img width="844" height="937" alt="Screenshot 2026-03-02 at 10 25 52 PM" src="https://github.com/user-attachments/assets/5933fcb1-5f3f-4fcc-b4a0-f23ea530c61c" />
 
 This project is a Japanese Quiz App built with Next.js.
 
